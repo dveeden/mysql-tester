@@ -1,4 +1,4 @@
-// Copyright 2024 PingCAP, Inc.
+// Copyright 2026 PingCAP, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -3344,6 +3344,7 @@ var MysqlErrNameToNum = map[string]int{
 	"ErrModifyColumnReferencedByPartialCondition": 8272,
 	"ErrCheckPartialIndexWithoutFastCheck": 8273,
 	"ErrMaxKeysReadExceeded": 8274,
+	"ErrMaskingPolicyExprInvalidColumn": 8275,
 	"ErrPDServerTimeout": 9001,
 	"ErrTiKVServerTimeout": 9002,
 	"ErrTiKVServerBusy": 9003,
@@ -7797,4 +7798,5 @@ var MysqlErrNameToNum = map[string]int{
 	"ER_RPL_STMT_FORCE_DISABLE_CASCADE_TRIGGERS": 15693,
 	"ER_WARN_AUDIT_LOG_SYSVAR_ADJUSTED": 15694,
 	"ER_WARN_AUDIT_LOG_SYSVAR_DISCARDED": 15695,
+	"ErrUserPrefixMismatch": 20003,
 }
